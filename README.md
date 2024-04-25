@@ -16,19 +16,21 @@ Through this project, users can gain a deeper understanding of file I/O operatio
 To use the "get_next_line" function in your project, clone the repository containing the necessary files from GitHub:
 
 ```bash
-git clone <https://github.com/dansylvain/42_get_next_line.git>
+git clone https://github.com/dansylvain/42_get_next_line.git get_next_line
 ```
 ### Compiling Your Program
 Navigate to the project directory and compile your program, ensuring that you link the "get_next_line" function with your source code:
 ```bash
 cd get_next_line
-gcc -o get_next_line.c get_next_line_utils.c
+gcc get_next_line.c get_next_line_utils.c -o get_next_line
 ```
 or for the bonus version:
 ```bash
 cd get_next_line
-gcc -o get_next_line_bonus.c get_next_line_utils_bonus.c
+gcc get_next_line_bonus.c get_next_line_utils_bonus.c -o get_next_line_bonus
 ```
+> [!WARNING]
+> Usually you will use this function within a program.
 ## Dependencies
 My implementation of the "get_next_line" project includes all necessary dependencies within the source code, requiring no additional installations.
 
